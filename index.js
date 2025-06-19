@@ -1,4 +1,5 @@
 let marks=prompt("enter marks between 0-100");
+marks=Number(marks);
 
 if(marks <= 100 && marks >=0  ){
     if(marks >=90 && marks <=100){
@@ -16,4 +17,7 @@ if(marks <= 100 && marks >=0  ){
     else if(marks >=0 && marks <=39){
         console.log("grade=F ,","Better Luck Next Time");
     }
+}
+else{
+    console.log("wrong entry");
 }
